@@ -16,17 +16,8 @@ define(['constants'], function(Constants) {
 
       self.initialize = function() {
          self.grid = _updateGrid(function() {
-            return Math.floor(Math.random() * 100) % 10;
+            return Math.floor(Math.random() * 100) % 4;
          });
-//         self.grid = [
-//            [ 0, 0, 0, 0, 0, 0, 0 ],
-//            [ 0, 1, 1, 1, 0, 1, 0 ],
-//            [ 0, 1, 0, 0, 0, 0, 0 ],
-//            [ 0, 0, 0, 0, 1, 1, 0 ],
-//            [ 0, 0, 1, 1, 0, 1, 0 ],
-//            [ 0, 1, 0, 1, 0, 1, 0 ],
-//            [ 0, 0, 0, 0, 0, 0, 0 ]
-//            ];
       };
 
       self.update = function() {
