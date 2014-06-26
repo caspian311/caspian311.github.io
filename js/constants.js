@@ -1,9 +1,12 @@
 define(function() {
+   var canvas = $('#my_canvas');
+   var size = Math.max(canvas.width(), canvas.height())
+   var lengthCellCount = 100;
    var Constants = {
-      SCREEN_WIDTH: 1000,
-      SCREEN_HEIGHT: 1000,
-      NUMBER_OF_CELLS_HEIGHT: 500,
-      NUMBER_OF_CELLS_WIDTH: 500,
+      SCREEN_WIDTH: size,
+      SCREEN_HEIGHT: size,
+      NUMBER_OF_CELLS_HEIGHT: lengthCellCount,
+      NUMBER_OF_CELLS_WIDTH: lengthCellCount,
       WHITE: "rgb(255, 255, 255)",
       BLACK: "rgb(0, 0, 0)",
       RED: "rgb(0, 0, 255)"
