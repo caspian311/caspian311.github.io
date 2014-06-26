@@ -1,7 +1,7 @@
 define(function() {
    var canvas = $('#my_canvas');
    var size = Math.max(canvas.width(), canvas.height())
-   var lengthCellCount = 100;
+   var lengthCellCount = 200;
    var Constants = {
       SCREEN_WIDTH: size,
       SCREEN_HEIGHT: size,
